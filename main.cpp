@@ -29,7 +29,7 @@ int main()
 	cout<<"\nthere are no items on the list.";
   } else {
     for(int i=0;i<list.size();i++) {
-      cout<<"\n"+i+". "+list[i];
+      cout<<"\n"<<i<<". "<<list[i];
     }
   }
   return 0;
